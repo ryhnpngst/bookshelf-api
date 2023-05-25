@@ -1,6 +1,7 @@
 const { nanoid } = require('nanoid');
 const books = require('./books');
 
+// eslint-disable-next-line consistent-return
 const addBookHandler = (request, h) => {
   const {
     name,
